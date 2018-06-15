@@ -1,0 +1,87 @@
+wikifonia-5988.mxl	'Neath Fijian Skies	33	546	False
+wikifonia-12338.mxl	'Til the Storm Passes By	112	1641	False
+wikifonia-6861.mxl	Again I Say Rejoice	92	1171	False
+wikifonia-11843.mxl	American Honey	89	1158	False
+wikifonia-11992.mxl	As The Deer	123	925	False
+wikifonia-6068.mxl	Blue Grass Waltz	16	297	False
+wikifonia-10844.mxl	Born Again	78	966	False
+wikifonia-10550.mxl	Build My Mansion	49	649	False
+wikifonia-12228.mxl	Caravan	25	112	False
+wikifonia-11673.mxl	Change My Heart Oh God	52	324	False
+wikifonia-10688.mxl	Consider the Lillies	116	1102	False
+wikifonia-9825.mxl	DOWNTOWN	49	546	False
+wikifonia-10845.mxl	Do You Know My Jesus?	78	697	False
+wikifonia-11271.mxl	Drinking From My Saucer	58	1140	False
+wikifonia-10687.mxl	For Those Tears I Died	96	1213	False
+wikifonia-10846.mxl	Gentle Shepherd	21	295	False
+wikifonia-10847.mxl	Give Them All To Jesus	64	729	False
+wikifonia-11572.mxl	God on the Mountain	65	1044	False
+wikifonia-10765.mxl	Goodbye World, Goodbye	82	1123	False
+wikifonia-10632.mxl	He Was There All the Time	64	659	False
+wikifonia-12496.mxl	Holy Spirit Thou Art Welcome	70	662	False
+wikifonia-10633.mxl	House of Gold	38	857	False
+wikifonia-10691.mxl	I Believe in a Hill Called Mount Calvary	92	1049	False
+wikifonia-10327.mxl	I Bowed on my Knees and Cried Holy	93	1091	False
+wikifonia-10636.mxl	I Can't Help It	54	810	False
+wikifonia-10690.mxl	I Love You Lord	18	148	False
+wikifonia-10849.mxl	I Should Have Been Crucified	67	747	False
+wikifonia-10850.mxl	I Want to Stroll Over Heaven With You	38	907	False
+wikifonia-10852.mxl	I Will Serve Thee	24	259	False
+wikifonia-10853.mxl	I'd Rather Have Jesus	89	928	False
+wikifonia-10856.mxl	I'll Talk To My Father	37	756	False
+wikifonia-10857.mxl	I'm Too Far From Where I Started	19	221	False
+wikifonia-10635.mxl	I'm so Lonesome I Could Cry	22	491	False
+wikifonia-6799.mxl	If I Had Words	34	165	False
+wikifonia-10854.mxl	If That Isn't Love	62	624	False
+wikifonia-10858.mxl	In His Time	58	343	False
+wikifonia-10859.mxl	In The Garden	63	836	False
+wikifonia-10130.mxl	Keep On The Firing Line	57	1382	False
+wikifonia-11413.mxl	Let Me Touch Him	75	870	False
+wikifonia-10861.mxl	Let Us Break Bread Together	66	504	False
+wikifonia-10866.mxl	Let's Just Praise the Lord	58	870	False
+wikifonia-10867.mxl	Life's Railway to Heaven	72	1583	False
+wikifonia-10766.mxl	Little is Much When God is In It	51	759	False
+wikifonia-10868.mxl	Lord, I'm Coming Home	76	849	False
+wikifonia-10871.mxl	Love Grew Where the Blood Fell	112	1078	False
+wikifonia-10875.mxl	Mansion Over the Hilltop	122	889	False
+wikifonia-6048.mxl	May You Never Be Alone	18	296	False
+wikifonia-8829.mxl	Mission Impossible Theme	15	8	False
+wikifonia-12227.mxl	Moonglow	70	791	False
+wikifonia-10876.mxl	More Of You	90	939	False
+wikifonia-10063.mxl	Morning Has Broken	66	522	False
+wikifonia-11710.mxl	My Tribute	92	699	False
+wikifonia-10887.mxl	Precious Lord, Take My Hand	65	907	False
+wikifonia-10888.mxl	Precious Memories	51	786	False
+wikifonia-11735.mxl	Saginaw, Michigan	55	1191	False
+wikifonia-10889.mxl	Saints will Rise	26	681	False
+wikifonia-10631.mxl	Sheltered in the Arms of God	72	775	False
+wikifonia-6525.mxl	Singing Bamboo	30	379	False
+wikifonia-10890.mxl	Something Beautiful	70	664	False
+wikifonia-10891.mxl	Step Into The Water	80	1086	False
+wikifonia-10680.mxl	Sweet Beulah Land	74	827	False
+wikifonia-10892.mxl	Ten Thousand Angels	60	1059	False
+wikifonia-10820.mxl	The Blood that Stained the Old Rugged Cross	72	1388	False
+wikifonia-6527.mxl	The Hukilau Song	17	545	False
+wikifonia-10893.mxl	The Longer I Serve Him	68	643	False
+wikifonia-11021.mxl	The Old Rugged Cross	50	969	False
+wikifonia-10924.mxl	The Old Rugged Cross Made the Difference	75	862	False
+wikifonia-10925.mxl	The Savior is Waiting	48	600	False
+wikifonia-10926.mxl	The Way That He Loves	81	873	False
+wikifonia-10927.mxl	The Wonder Of It All	97	923	False
+wikifonia-10626.mxl	There is a River	152	1080	False
+wikifonia-10929.mxl	There's Something About That Name	64	514	False
+wikifonia-10930.mxl	This Is The Time I Must Sing	22	718	False
+wikifonia-10931.mxl	This World Is Not My Home	130	1628	False
+wikifonia-10932.mxl	Thou Art Worthy	25	277	False
+wikifonia-10934.mxl	Through It All	75	1135	False
+wikifonia-10684.mxl	Unclouded Day	96	1332	False
+wikifonia-10682.mxl	Until You've Known the Love of God	75	1470	False
+wikifonia-6913.mxl	Wait Till the Sun Shines Nellie	33	452	False
+wikifonia-10681.mxl	We Are So Blessed	96	813	False
+wikifonia-10936.mxl	We'll Understand It Better By and By	81	1191	False
+wikifonia-10937.mxl	Were You There	104	781	False
+wikifonia-10938.mxl	When He was on the Cross	48	725	False
+wikifonia-6800.mxl	When The Rain Tumbles Down In July	39	577	False
+wikifonia-10939.mxl	Wings of A Dove	54	842	False
+wikifonia-8923.mxl	burgundystreet blues	17	12	False
+wikifonia-6394.mxl	me and my broken heart	19	826	False

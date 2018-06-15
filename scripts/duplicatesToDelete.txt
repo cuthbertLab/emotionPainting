@@ -1,0 +1,67 @@
+wikifonia-9743.mxl	Aint misbehavin"	35	490	True
+wikifonia-2984.mxl	Always	16	281	True
+wikifonia-1854.mxl	Amazing Grace	15	626	True
+wikifonia-3868.mxl	Beer Barrel Polka	21	721	True
+wikifonia-11158.mxl	Blue Moon	61	448	True
+wikifonia-3964.mxl	Cabaret	41	540	True
+wikifonia-3965.mxl	Cabaret	41	540	True
+wikifonia-3966.mxl	Cabaret	41	540	True
+wikifonia-3967.mxl	Cabaret	41	540	True
+wikifonia-3402.mxl	Crazy	45	352	True
+wikifonia-10702.mxl	Don't It Make My Brown Eyes Blue	61	519	True
+wikifonia-5893.mxl	Elvira	13	369	True
+wikifonia-12187.mxl	Fireflies	80	709	True
+wikifonia-4765.mxl	Get a Life	39	686	True
+wikifonia-5393.mxl	Home, Sweet Home	17	195	True
+wikifonia-11252.mxl	I Cover the Waterfront	60	397	True
+wikifonia-3834.mxl	I Want To Hold Your Hand	41	580	True
+wikifonia-8967.mxl	I Will Always Love You	80	549	True
+wikifonia-3153.mxl	I saw her standing there	24	576	True
+wikifonia-6017.mxl	If I Give My Heart To You	29	483	True
+wikifonia-6353.mxl	If I Had A Hammer	19	354	True
+wikifonia-7167.mxl	If You Knew Susie	14	415	True
+wikifonia-7168.mxl	If You Knew Susie	14	415	True
+wikifonia-6263.mxl	Just a little lovin'	21	575	True
+wikifonia-1865.mxl	L-O-V-E	29	360	True
+wikifonia-6046.mxl	Let Me Call You Sweetheart	19	189	True
+wikifonia-4018.mxl	Love Me Or Leave Me	54	524	True
+wikifonia-7251.mxl	Mam'selle	31	347	True
+wikifonia-3173.mxl	Meet Me Tonight In Dreamland	21	245	True
+wikifonia-2930.mxl	Moments To Remember	21	432	True
+wikifonia-5613.mxl	My Dianne	21	232	True
+wikifonia-11116.mxl	My Ship	63	579	True
+wikifonia-11279.mxl	My Silent Love	40	391	True
+wikifonia-6759.mxl	Nellie the elephant	40	454	True
+wikifonia-6523.mxl	No One	41	331	True
+wikifonia-3523.mxl	No Other Love	42	368	True
+wikifonia-12554.mxl	Ob-La-Di Ob-La-Da	19	708	True
+wikifonia-9987.mxl	Pal Of My Cradle Days	69	252	True
+wikifonia-4710.mxl	Penny Arcade	39	1054	True
+wikifonia-3422.mxl	Quando, Quando, Quando (Tell Me When)	50	468	True
+wikifonia-4504.mxl	Rags To Riches	46	511	True
+wikifonia-2686.mxl	Summer Wind	13	561	True
+wikifonia-4057.mxl	Supercalifragilisticexpialidocious	42	966	True
+wikifonia-3373.mxl	The Gypsy	26	470	True
+wikifonia-2845.mxl	The Old Lamplighter	31	716	True
+wikifonia-11021.mxl	The Old Rugged Cross    50      969     False
+wikifonia-5008.mxl	True Love	26	223	True
+wikifonia-3719.mxl	Twilight Time	29	749	True
+wikifonia-6761.mxl	Under The Bridges Of Paris	28	492	True
+wikifonia-4059.mxl	Under the Sea	43	866	True
+wikifonia-3858.mxl	Wait 'Till the Sun Shines, Nellie	26	206	True
+wikifonia-9995.mxl	When I'm Sixty-Four	40	854	True
+wikifonia-5265.mxl	(When You And I Were Young,) Maggie	25	560	True
+wikifonia-2996.mxl	Whispering	21	304	True
+wikifonia-1343.mxl	Yankee Doodle	18	327	True
+wikifonia-3281.mxl	You'll Never Walk Alone	34	335	True
+wikifonia-10636.mxl	I Can't Help It	54	810	False
+wikifonia-10063.mxl	Morning Has Broken	66	522	False
+wikifonia-12227.mxl	Moonglow	70	791	False
+wikifonia-10114.mxl	'Deed I Do	32	222	True
+wikifonia-2571.mxl	Ain't  Misbehavin'	36	375	True
+wikifonia-3012.mxl	All My Loving	22	449	True
+wikifonia-3181.mxl	Amazing Grace	26	545	True
+wikifonia-4604.mxl	Comes Love	56	911	True
+wikifonia-1019.mxl	Happy Xmas	82	872	True
+wikifonia-7228.mxl	Imagine	82	3	True
+wikifonia-1658.mxl	My Bonnie	20	235	True
