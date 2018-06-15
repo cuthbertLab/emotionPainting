@@ -1,0 +1,183 @@
+Printing sentiment-nearmode results: 
+Words in NRC File = 14182
+Number of files = 1895
+Total lyrics count = 205570
+Neutral, sentiment-free words: 25620
+Words occurrences not in our database: 157790
+Mean value of neutral observations: 0.630210772834
+
+Sentiment: anger	Occurrence: 2853
+Mode Average of Matches    : +0.61129 (p = 0.111597)
+Mode Average of Non-Matches: +0.62626 
+
+Sentiment: anticipation	Occurrence: 6885
+Mode Average of Matches    : +0.63370 (p = 0.121316)
+Mode Average of Non-Matches: +0.62396 
+
+Sentiment: disgust	Occurrence: 2163
+Mode Average of Matches    : +0.63384 (p = 0.402659)
+Mode Average of Non-Matches: +0.62496 
+
+Sentiment: fear	Occurrence: 3403
+Mode Average of Matches    : +0.62210 (p = 0.683302)
+Mode Average of Non-Matches: +0.62562 
+
+Sentiment: joy	Occurrence: 9175
+Mode Average of Matches    : +0.61482 (p = 0.020813)
+Mode Average of Non-Matches: +0.62787 
+
+Sentiment: negative	Occurrence: 6134
+Mode Average of Matches    : +0.62553 (p = 0.977384)
+Mode Average of Non-Matches: +0.62534 
+
+Sentiment: positive	Occurrence: 12387
+Mode Average of Matches    : +0.61645 (p = 0.017593)
+Mode Average of Non-Matches: +0.62849 
+
+Sentiment: sadness	Occurrence: 4701
+Mode Average of Matches    : +0.62072 (p = 0.489143)
+Mode Average of Non-Matches: +0.62587 
+
+Sentiment: surprise	Occurrence: 3470
+Mode Average of Matches    : +0.60951 (p = 0.046762)
+Mode Average of Non-Matches: +0.62661 
+
+Sentiment: trust	Occurrence: 6010
+Mode Average of Matches    : +0.62812 (p = 0.636762)
+Mode Average of Non-Matches: +0.62497 
+
+*** p-value of        anger      vs. anticipation is : 0.03836 
+*** diff of median of anger       -  anticipation is : 0 
+
+*** p-value of        anger      vs. disgust    is : 0.10243 
+*** diff of median of anger       -  disgust    is : 0 
+
+*** p-value of        anger      vs. fear       is : 0.38120 
+*** diff of median of anger       -  fear       is : 0 
+
+*** p-value of        anger      vs. joy        is : 0.73497 
+*** diff of median of anger       -  joy        is : 0 
+
+*** p-value of        anger      vs. negative   is : 0.19636 
+*** diff of median of anger       -  negative   is : 0.0 
+
+*** p-value of        anger      vs. positive   is : 0.60970 
+*** diff of median of anger       -  positive   is : 0 
+
+*** p-value of        anger      vs. sadness    is : 0.41415 
+*** diff of median of anger       -  sadness    is : 0 
+
+*** p-value of        anger      vs. surprise   is : 0.88542 
+*** diff of median of anger       -  surprise   is : 0.0 
+
+*** p-value of        anger      vs. trust      is : 0.12785 
+*** diff of median of anger       -  trust      is : 0.0 
+
+*** p-value of        anticipation vs. disgust    is : 0.99023 
+*** diff of median of anticipation  -  disgust    is : 0 
+
+*** p-value of        anticipation vs. fear       is : 0.25275 
+*** diff of median of anticipation  -  fear       is : 0 
+
+*** p-value of        anticipation vs. joy        is : 0.01445 
+*** diff of median of anticipation  -  joy        is : 0 
+
+*** p-value of        anticipation vs. negative   is : 0.33555 
+*** diff of median of anticipation  -  negative   is : 0.0 
+
+*** p-value of        anticipation vs. positive   is : 0.01766 
+*** diff of median of anticipation  -  positive   is : 0 
+
+*** p-value of        anticipation vs. sadness    is : 0.15635 
+*** diff of median of anticipation  -  sadness    is : 0 
+
+*** p-value of        anticipation vs. surprise   is : 0.01683 
+*** diff of median of anticipation  -  surprise   is : 0.0 
+
+*** p-value of        anticipation vs. trust      is : 0.51278 
+*** diff of median of anticipation  -  trust      is : 0.0 
+
+*** p-value of        disgust    vs. fear       is : 0.37670 
+*** diff of median of disgust     -  fear       is : 0 
+
+*** p-value of        disgust    vs. joy        is : 0.09942 
+*** diff of median of disgust     -  joy        is : 0 
+
+*** p-value of        disgust    vs. negative   is : 0.49087 
+*** diff of median of disgust     -  negative   is : 0.0 
+
+*** p-value of        disgust    vs. positive   is : 0.12210 
+*** diff of median of disgust     -  positive   is : 0 
+
+*** p-value of        disgust    vs. sadness    is : 0.29569 
+*** diff of median of disgust     -  sadness    is : 0 
+
+*** p-value of        disgust    vs. surprise   is : 0.06667 
+*** diff of median of disgust     -  surprise   is : 0.0 
+
+*** p-value of        disgust    vs. trust      is : 0.63609 
+*** diff of median of disgust     -  trust      is : 0.0 
+
+*** p-value of        fear       vs. joy        is : 0.45524 
+*** diff of median of fear        -  joy        is : 0 
+
+*** p-value of        fear       vs. negative   is : 0.74043 
+*** diff of median of fear        -  negative   is : 0.0 
+
+*** p-value of        fear       vs. positive   is : 0.54777 
+*** diff of median of fear        -  positive   is : 0 
+
+*** p-value of        fear       vs. sadness    is : 0.89948 
+*** diff of median of fear        -  sadness    is : 0 
+
+*** p-value of        fear       vs. surprise   is : 0.28345 
+*** diff of median of fear        -  surprise   is : 0.0 
+
+*** p-value of        fear       vs. trust      is : 0.56227 
+*** diff of median of fear        -  trust      is : 0.0 
+
+*** p-value of        joy        vs. negative   is : 0.18083 
+*** diff of median of joy         -  negative   is : 0.0 
+
+*** p-value of        joy        vs. positive   is : 0.80783 
+*** diff of median of joy         -  positive   is : 0 
+
+*** p-value of        joy        vs. sadness    is : 0.49858 
+*** diff of median of joy         -  sadness    is : 0 
+
+*** p-value of        joy        vs. surprise   is : 0.58457 
+*** diff of median of joy         -  surprise   is : 0.0 
+
+*** p-value of        joy        vs. trust      is : 0.09830 
+*** diff of median of joy         -  trust      is : 0.0 
+
+*** p-value of        negative   vs. positive   is : 0.23043 
+*** diff of median of negative    -  positive   is : 0.0 
+
+*** p-value of        negative   vs. sadness    is : 0.60866 
+*** diff of median of negative    -  sadness    is : 0.0 
+
+*** p-value of        negative   vs. surprise   is : 0.12116 
+*** diff of median of negative    -  surprise   is : 0.0 
+
+*** p-value of        negative   vs. trust      is : 0.76798 
+*** diff of median of negative    -  trust      is : 0.0 
+
+*** p-value of        positive   vs. sadness    is : 0.60801 
+*** diff of median of positive    -  sadness    is : 0 
+
+*** p-value of        positive   vs. surprise   is : 0.45851 
+*** diff of median of positive    -  surprise   is : 0.0 
+
+*** p-value of        positive   vs. trust      is : 0.12543 
+*** diff of median of positive    -  trust      is : 0.0 
+
+*** p-value of        sadness    vs. surprise   is : 0.30360 
+*** diff of median of sadness     -  surprise   is : 0.0 
+
+*** p-value of        sadness    vs. trust      is : 0.43268 
+*** diff of median of sadness     -  trust      is : 0.0 
+
+*** p-value of        surprise   vs. trust      is : 0.07269 
+*** diff of median of surprise    -  trust      is : 0.0 
+

@@ -1,0 +1,203 @@
+Printing sentiment-noteLength results: 
+Words in NRC File = 14182
+Number of files = 1895
+Total lyrics count = 205570
+Neutral, sentiment-free words: 25620
+Words occurrences not in our database: 157790
+Mean value of neutral observations: 1.2768816679677342
+
+Sentiment: anger	Occurrence: 2853
+Average Note Length of Matches    : +1.12591 (p = 0.000000)
+Average Note Length of Non-Matches: +1.27954 
+StdDev of Matches    : +0.82247
+StdDev of NonMatches : +0.96232
+
+Sentiment: anticipation	Occurrence: 6885
+Average Note Length of Matches    : +1.24609 (p = 0.019018)
+Average Note Length of Non-Matches: +1.27445 
+StdDev of Matches    : +0.92260
+StdDev of NonMatches : +0.96057
+
+Sentiment: disgust	Occurrence: 2163
+Average Note Length of Matches    : +1.16266 (p = 0.000000)
+Average Note Length of Non-Matches: +1.27547 
+StdDev of Matches    : +0.84575
+StdDev of NonMatches : +0.95982
+
+Sentiment: fear	Occurrence: 3403
+Average Note Length of Matches    : +1.14382 (p = 0.000000)
+Average Note Length of Non-Matches: +1.28007 
+StdDev of Matches    : +0.85505
+StdDev of NonMatches : +0.96181
+
+Sentiment: joy	Occurrence: 9175
+Average Note Length of Matches    : +1.27861 (p = 0.353684)
+Average Note Length of Non-Matches: +1.26841 
+StdDev of Matches    : +0.94465
+StdDev of NonMatches : +0.95773
+
+Sentiment: negative	Occurrence: 6134
+Average Note Length of Matches    : +1.18498 (p = 0.000000)
+Average Note Length of Non-Matches: +1.28294 
+StdDev of Matches    : +0.89127
+StdDev of NonMatches : +0.96367
+
+Sentiment: positive	Occurrence: 12387
+Average Note Length of Matches    : +1.28585 (p = 0.036017)
+Average Note Length of Non-Matches: +1.26495 
+StdDev of Matches    : +0.95477
+StdDev of NonMatches : +0.95535
+
+Sentiment: sadness	Occurrence: 4701
+Average Note Length of Matches    : +1.23290 (p = 0.003954)
+Average Note Length of Non-Matches: +1.27445 
+StdDev of Matches    : +0.93615
+StdDev of NonMatches : +0.95722
+
+Sentiment: surprise	Occurrence: 3470
+Average Note Length of Matches    : +1.21186 (p = 0.000055)
+Average Note Length of Non-Matches: +1.27495 
+StdDev of Matches    : +0.87972
+StdDev of NonMatches : +0.96076
+
+Sentiment: trust	Occurrence: 6010
+Average Note Length of Matches    : +1.25705 (p = 0.232004)
+Average Note Length of Non-Matches: +1.27228 
+StdDev of Matches    : +0.91813
+StdDev of NonMatches : +0.96045
+
+*** p-value of        anger      vs. anticipation is : 0.00000 
+*** diff of median of anger       -  anticipation is : 0.0 
+
+*** p-value of        anger      vs. disgust    is : 0.12311 
+*** diff of median of anger       -  disgust    is : 0.0 
+
+*** p-value of        anger      vs. fear       is : 0.39954 
+*** diff of median of anger       -  fear       is : 0.0 
+
+*** p-value of        anger      vs. joy        is : 0.00000 
+*** diff of median of anger       -  joy        is : 0.0 
+
+*** p-value of        anger      vs. negative   is : 0.00205 
+*** diff of median of anger       -  negative   is : 0.0 
+
+*** p-value of        anger      vs. positive   is : 0.00000 
+*** diff of median of anger       -  positive   is : 0.0 
+
+*** p-value of        anger      vs. sadness    is : 0.00000 
+*** diff of median of anger       -  sadness    is : 0.0 
+
+*** p-value of        anger      vs. surprise   is : 0.00006 
+*** diff of median of anger       -  surprise   is : 0.0 
+
+*** p-value of        anger      vs. trust      is : 0.00000 
+*** diff of median of anger       -  trust      is : 0.0 
+
+*** p-value of        anticipation vs. disgust    is : 0.00009 
+*** diff of median of anticipation  -  disgust    is : 0.0 
+
+*** p-value of        anticipation vs. fear       is : 0.00000 
+*** diff of median of anticipation  -  fear       is : 0.0 
+
+*** p-value of        anticipation vs. joy        is : 0.02869 
+*** diff of median of anticipation  -  joy        is : 0.0 
+
+*** p-value of        anticipation vs. negative   is : 0.00012 
+*** diff of median of anticipation  -  negative   is : 0.0 
+
+*** p-value of        anticipation vs. positive   is : 0.00465 
+*** diff of median of anticipation  -  positive   is : 0.0 
+
+*** p-value of        anticipation vs. sadness    is : 0.45394 
+*** diff of median of anticipation  -  sadness    is : 0.0 
+
+*** p-value of        anticipation vs. surprise   is : 0.06609 
+*** diff of median of anticipation  -  surprise   is : 0.0 
+
+*** p-value of        anticipation vs. trust      is : 0.49992 
+*** diff of median of anticipation  -  trust      is : 0.0 
+
+*** p-value of        disgust    vs. fear       is : 0.42000 
+*** diff of median of disgust     -  fear       is : 0.0 
+
+*** p-value of        disgust    vs. joy        is : 0.00000 
+*** diff of median of disgust     -  joy        is : 0.0 
+
+*** p-value of        disgust    vs. negative   is : 0.29828 
+*** diff of median of disgust     -  negative   is : 0.0 
+
+*** p-value of        disgust    vs. positive   is : 0.00000 
+*** diff of median of disgust     -  positive   is : 0.0 
+
+*** p-value of        disgust    vs. sadness    is : 0.00202 
+*** diff of median of disgust     -  sadness    is : 0.0 
+
+*** p-value of        disgust    vs. surprise   is : 0.03662 
+*** diff of median of disgust     -  surprise   is : 0.0 
+
+*** p-value of        disgust    vs. trust      is : 0.00001 
+*** diff of median of disgust     -  trust      is : 0.0 
+
+*** p-value of        fear       vs. joy        is : 0.00000 
+*** diff of median of fear        -  joy        is : 0.0 
+
+*** p-value of        fear       vs. negative   is : 0.02660 
+*** diff of median of fear        -  negative   is : 0.0 
+
+*** p-value of        fear       vs. positive   is : 0.00000 
+*** diff of median of fear        -  positive   is : 0.0 
+
+*** p-value of        fear       vs. sadness    is : 0.00001 
+*** diff of median of fear        -  sadness    is : 0.0 
+
+*** p-value of        fear       vs. surprise   is : 0.00115 
+*** diff of median of fear        -  surprise   is : 0.0 
+
+*** p-value of        fear       vs. trust      is : 0.00000 
+*** diff of median of fear        -  trust      is : 0.0 
+
+*** p-value of        joy        vs. negative   is : 0.00000 
+*** diff of median of joy         -  negative   is : 0.0 
+
+*** p-value of        joy        vs. positive   is : 0.57966 
+*** diff of median of joy         -  positive   is : 0.0 
+
+*** p-value of        joy        vs. sadness    is : 0.00667 
+*** diff of median of joy         -  sadness    is : 0.0 
+
+*** p-value of        joy        vs. surprise   is : 0.00019 
+*** diff of median of joy         -  surprise   is : 0.0 
+
+*** p-value of        joy        vs. trust      is : 0.16189 
+*** diff of median of joy         -  trust      is : 0.0 
+
+*** p-value of        negative   vs. positive   is : 0.00000 
+*** diff of median of negative    -  positive   is : 0.0 
+
+*** p-value of        negative   vs. sadness    is : 0.00703 
+*** diff of median of negative    -  sadness    is : 0.0 
+
+*** p-value of        negative   vs. surprise   is : 0.15228 
+*** diff of median of negative    -  surprise   is : 0.0 
+
+*** p-value of        negative   vs. trust      is : 0.00001 
+*** diff of median of negative    -  trust      is : 0.0 
+
+*** p-value of        positive   vs. sadness    is : 0.00103 
+*** diff of median of positive    -  sadness    is : 0.0 
+
+*** p-value of        positive   vs. surprise   is : 0.00002 
+*** diff of median of positive    -  surprise   is : 0.0 
+
+*** p-value of        positive   vs. trust      is : 0.04894 
+*** diff of median of positive    -  trust      is : 0.0 
+
+*** p-value of        sadness    vs. surprise   is : 0.29855 
+*** diff of median of sadness     -  surprise   is : 0.0 
+
+*** p-value of        sadness    vs. trust      is : 0.18161 
+*** diff of median of sadness     -  trust      is : 0.0 
+
+*** p-value of        surprise   vs. trust      is : 0.01779 
+*** diff of median of surprise    -  trust      is : 0.0 
+
