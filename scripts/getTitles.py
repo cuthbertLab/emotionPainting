@@ -2,7 +2,7 @@ import os
 
 from music21 import converter
 
-import sentiment_nrc
+from ..code import sentiment_nrc
 
 def main():
     sc = sentiment_nrc.SentimentCorrelator()
@@ -16,10 +16,11 @@ def main():
         infoDict[title] = info
         if i % 10 == 0:
             print(i)
-    
+
     with open('titles1895.txt', 'wb') as f:
         for t in sorted(list(infoDict)):
             f.write(infoDict[t].encode('utf-8'))
+
 
 if __name__ == '__main__':
     main()

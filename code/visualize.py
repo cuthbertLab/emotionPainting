@@ -14,11 +14,12 @@ from os.path import isfile, join
 import sentiment_nrc
 from getRedBlueColor import RedBlue
 
-# import the list of emiotions and relavent functions from sentiment_nrc
+# import the list of emotions and relevant functions from sentiment_nrc
 emotions = sentiment_nrc.SentimentCorrelator.emotions
-yAdditions = ["NRC\n(non-match)", "NRC\n(netural)", "Stopwords\n(neutral)","Compr.\n(neutral)"] # The four base vocabularies 
+# The four base vocabularies
+yAdditions = ["NRC\n(non-match)", "NRC\n(neutral)", "Stopwords\n(neutral)", "Compr.\n(neutral)"]
 
-emotions_X = emotions[:-2] 
+emotions_X = emotions[:-2]
 emotions_Y = yAdditions + emotions[:-2]
 
 sentimentStringToInt = sentiment_nrc.SentimentCorrelator().sentimentStringToInt
@@ -35,7 +36,7 @@ def translateY(i):
 def getPickle(filepath):
     with open(filepath, 'rb') as f:
         pickleObject = pickle.load(f)
-    return pickleObject        
+    return pickleObject
 
 def starPV(pValue):
     '''
@@ -45,14 +46,14 @@ def starPV(pValue):
     outVal = int(-math.log(abs(pValue), 10) - 1) if pValue != 0 else 5.0
     if outVal < 0:
         outVal = 0.0
-    
+
     if outVal > 5:
         outVal = 5.0
     return sign * outVal
 
 def matrixStarPV(matrix):
     '''
-    Get number of stars for each cell. 
+    Get number of stars for each cell.
     '''
     matrix2 = [[starPV(y) for y in x] for x in matrix]
     for i in range(len(emotions_X)):
@@ -72,10 +73,10 @@ def makeMatrix(po, po_stopwords, po_comprehensive):
     '''
     make the matrix of values (not colors)
     '''
-    matrix = [[ 0 for unused_y in range(len(emotions_Y) ) ] for unused_x in range(len(emotions_X))] 
+    matrix = [[0 for _unused_y in range(len(emotions_Y))] for _unused_x in range(len(emotions_X))]
     statList = []
 
-    # sentiments against non-matches, NRC neutral, neutral with stopwords, 
+    # sentiments against non-matches, NRC neutral, neutral with stopwords,
     # and comprehensive lexicon
     for i in range(len(emotions_X)):
         foundObs = po['foundObservations'][i]
@@ -92,8 +93,8 @@ def makeMatrix(po, po_stopwords, po_comprehensive):
         statS, pValueStopwords = stats.ttest_ind(foundObs, stopwordsObs, equal_var=False)
         matrix[i][2] = translateStat(statS) * pValueStopwords
 
-        comprehsiveObs = po_comprehensive['neutralValues']
-        statC, pValueComp = stats.ttest_ind(foundObs, comprehsiveObs, equal_var=False)
+        comprehensiveObs = po_comprehensive['neutralValues']
+        statC, pValueComp = stats.ttest_ind(foundObs, comprehensiveObs, equal_var=False)
         matrix[i][3] = translateStat(statC) * pValueComp
 
     # sentiments against each other
@@ -109,7 +110,7 @@ def makeMatrix(po, po_stopwords, po_comprehensive):
 def makeHeatMap(filepath, saveGraphs=True):
     stopwordsPath = "-stopwords-".join(filepath.split("-"))
     comprehensivePath = "-stopwords-comprehensive-".join(filepath.split("-"))
-    
+
     po = getPickle(filepath)
     po_stopwords = getPickle(stopwordsPath)
     po_comprehensive = getPickle(comprehensivePath)
@@ -119,7 +120,7 @@ def makeHeatMap(filepath, saveGraphs=True):
 
     # Plot it!
     fig, ax = plt.subplots()
-    plt.pcolor(matrix2, cmap=RedBlue, alpha=0.8,vmin=-5, vmax=5)
+    plt.pcolor(matrix2, cmap=RedBlue, alpha=0.8, vmin=-5, vmax=5)
 
     # the color bar scale on the right
     # plt.colorbar()
@@ -147,12 +148,12 @@ def makeHeatMap(filepath, saveGraphs=True):
             displayValue += '%.1E' % Decimal(value) if value < 0.001 else '%.4f' % value
             displayValue += "\n" + "*" * int(starPV(value))
 
-            plt.text(x + 0.5, 
-                     y + 0.5, 
+            plt.text(x + 0.5,
+                     y + 0.5,
                      displayValue,
                      horizontalalignment='center',
-                     verticalalignment='center', 
-                     color=color, 
+                     verticalalignment='center',
+                     color=color,
                      size=9)
 
     # table-like display
@@ -162,15 +163,15 @@ def makeHeatMap(filepath, saveGraphs=True):
     # add title
     title = filepath.split("/")[-1].split(".")[0]
     plt.title(title, y=1.08)
-    
+
     # save plot
     if saveGraphs:
         plt.tight_layout()
         fig.set_size_inches(15, 9)
-        plt.savefig('../results/visualizations/' + title + '.png', 
-                    dpi=300, 
+        plt.savefig('../results/visualizations/' + title + '.png',
+                    dpi=300,
                     bbox_inches='tight')
-    
+
     # plt.show()
 
 
@@ -180,11 +181,11 @@ def visualizeEveryPickle(saveGraphs=True):
     '''
     path = sentiment_nrc.SentimentCorrelator.getBaseDir('../results')
     pickleFiles = [join("../results", f) for f in listdir(path) if (
-                        isfile(join(path, f)) 
-                        and f[-2:] == ".p" 
-                        and len(f.split("-")) == 2)] # only get the basic xxxx-results.p 
+                        isfile(join(path, f))
+                        and f[-2:] == ".p"
+                        and len(f.split("-")) == 2)]  # only get the basic xxxx-results.p
 
-    for p in pickleFiles:        
+    for p in pickleFiles:
         makeHeatMap(p, saveGraphs=saveGraphs)
 
 
@@ -192,7 +193,7 @@ if __name__ == "__main__":
     import doctest
     doctest.testmod()
 
-    # code to visualize one correlator result: 
+    # code to visualize one correlator result:
     '''
     testName = 'majorMinor'
     makeHeatMap("../results/" + testName + "-result.p")

@@ -1,12 +1,14 @@
-from music21 import common, converter, text, meter
+from collections import Counter
 from os import path, listdir, mkdir
 from shutil import copy
 from functools import partial
+import string
 
-from collections import Counter
-#from langid import *
+from music21 import common, converter, text, meter
 
-#inputPath = '/Users/Phi/Desktop/2cool4school/music21/new_in'
+# from langid import *
+
+# inputPath = '/Users/Phi/Desktop/2cool4school/music21/new_in'
 inputPath = '../wikifonia_en_chords_lyrics'
 outputPath ='../new_out/enOrganized/lyrics_and_chords'
 
@@ -14,12 +16,18 @@ outputPath ='../new_out/enOrganized/lyrics_and_chords'
 def update(numRun, totalRun, latestOutput):
     print("Run %s (%d/%d)" % (latestOutput, numRun, totalRun))
 
-def organizeParallel(inputPath, outputPath, categorizeFunctionList):
 
-    mxlfiles = [path.join(inputPath, f) for f in listdir(inputPath) if (path.isfile(path.join(inputPath, f)) and f[-3:] == "mxl")]
-    newOrganizeOneSong = partial(organizeOneSong, outputPath=outputPath, categorizeFunctionList=categorizeFunctionList)
+def organizeParallel(inputPath, outputPath, categorizeFunctionList):
+    mxlfiles = [path.join(inputPath, f)
+                for f in listdir(inputPath)
+                if (path.isfile(path.join(inputPath, f)) and f[-3:] == "mxl")]
+    newOrganizeOneSong = partial(
+        organizeOneSong,
+        outputPath=outputPath,
+        categorizeFunctionList=categorizeFunctionList
+    )
     unused_output = common.runParallel(mxlfiles, newOrganizeOneSong, updateFunction=update)
-    print("Succecefully organized files from path \"" + inputPath+ "\".")
+    print("Successfully organized files from path \"" + inputPath+ "\".")
 
 
 def organizeOneSong(filePath, outputPath, categorizeFunctionList):
@@ -29,8 +37,8 @@ def organizeOneSong(filePath, outputPath, categorizeFunctionList):
         return
 
     for fun in categorizeFunctionList:
-        catagorized, folderName = fun(score)
-        if catagorized:
+        categorized, folderName = fun(score)
+        if categorized:
             newDir = path.join(outputPath,folderName)
             if not path.isdir(newDir):
                 mkdir(newDir)
@@ -55,7 +63,7 @@ def hasChords(score):
         return(True, "no_chords")
 
 
-def catagorizeByLanguage(score):
+def categorizeByLanguage(score):
         ly = text.assembleLyrics(score)
         if not len(ly):
             return(True, "no_lyrics")
@@ -64,27 +72,24 @@ def catagorizeByLanguage(score):
         if lang:
             return True,lang[0]
         else:
-            return False,""
-
-
+            return False, ""
 
 
 def xmlFileInfo(filePath):
-
     try:
         score = converter.parse(filePath)
     except Exception:
-        return ["Could not parse" , filePath, "X", "X", "False"]
+        return ["Could not parse", filePath, "X", "X", "False"]
 
-    #count chords
+    # count chords
     chords = []
     for pt in range(len(score.parts)):
         chords += score.parts[pt].recurse().getElementsByClass('Chord').stream()
 
-    #count lyrics
+    # count lyrics
     ly = text.assembleAllLyrics(score)
 
-    #test if syllabic matter
+    # test if syllabic matter
     syllabic = False
     justNotes = score.parts[0].recurse().getElementsByClass('Note').stream()
     for n in justNotes:
@@ -98,8 +103,6 @@ def xmlFileInfo(filePath):
     # Filename, title, #chords, #lyrics, syllabic
     return [filePath.split("/")[-1], score.metadata.title, str(len(chords)), str(len(ly)), str(syllabic)]
 
-
-import string
 
 def printInfoParallel(inputPath):
 
@@ -156,20 +159,16 @@ def checkMeters(filePath):
     return score.recurse().getElementsByClass(meter.TimeSignature)[0].ratioString
 
 
-from collections import Counter
-
-
 def metersParallel(inputPath):
-
-    mxlfiles = [path.join(inputPath, f) for f in listdir(inputPath) if (path.isfile(path.join(inputPath, f)) and f[-3:] == "mxl")]
+    mxlfiles = [path.join(inputPath, f)
+                for f in listdir(inputPath)
+                if (path.isfile(path.join(inputPath, f)) and f[-3:] == "mxl")]
     meters = common.runParallel(mxlfiles, checkMeters, updateFunction=update)
     c = Counter(meters)
     print(c.most_common())
 
 
-
 if __name__ == '__main__':
-
     metersParallel(inputPath)
 
 

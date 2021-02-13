@@ -3,8 +3,8 @@ Get examples of words with each sentiment.
 
 Used for a table.
 '''
-import sentiment_nrc
 import random
+from ..code import sentiment_nrc
 
 class AffectExamples():
     def __init__(self):
@@ -12,26 +12,25 @@ class AffectExamples():
         sc.useStopwords = False
         self.sc = sc
         self.wordList = sc.parseNrc()
-    
+
     def run(self):
         for i in range(10):
             self.runOneAffect(i)
         self.runNeutralWords()
         self.runContradictions()
-    
+
     def runOneAffect(self, i):
         sentName = self.sc.sentimentIntToString(i)
         wordsWithAffect = [word for word in self.wordList if self.wordList[word][i]]
         wordsWithAffectOnly = self.getWordsWithAffectOnly(wordsWithAffect, i)
-                  
+
         random.shuffle(wordsWithAffect)
         random.shuffle(wordsWithAffectOnly)
-          
+
         print(sentName)
         print(', '.join(wordsWithAffect[:8]))
         print(', '.join(wordsWithAffectOnly[:8]))
         print()
-    
 
     def runNeutralWords(self):
         allWords = [word for word in self.wordList]
@@ -39,8 +38,7 @@ class AffectExamples():
         random.shuffle(wordsWithAffectOnly)
         print('neutral')
         print(', '.join(wordsWithAffectOnly[:8]))
-        print()        
-
+        print()
 
     def runContradictions(self):
         wordsWithNegative = set(word for word in self.wordList if self.wordList[word][5])
@@ -55,7 +53,6 @@ class AffectExamples():
         print(intersec)
         print(len(intersec))
 
-
     def getWordsWithAffectOnly(self, wordsWithAffect, i):
         wordsWithAffectOnly = []
         for word in wordsWithAffect:
@@ -69,6 +66,7 @@ class AffectExamples():
             if not foundAnyOtherAffect:
                 wordsWithAffectOnly.append(word)
         return wordsWithAffectOnly
+
 
 if __name__ == "__main__":
     AffectExamples().run()
